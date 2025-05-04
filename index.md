@@ -14,8 +14,9 @@ title: Celestial Guide
 <script>
   const faqItems = document.querySelectorAll('.faq-item');
   faqItems.forEach(item => {
-    item.addEventListener('click', () => {
-      item.classList.toggle('active');
+     item.addEventListener('pointerdown', () => {
+       item.classList.toggle('active');
+     }, { passive: true });
     });
   });
 </script>
