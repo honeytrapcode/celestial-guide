@@ -1,7 +1,7 @@
 <div class="faq-item">
   <div class="faq-question">
     {% if faq.image %}
-      <img src="{{ faq.image }}" alt="" style="max-width: 100px; vertical-align: middle; margin-right: 10px;">
+      <img src="{{ site.baseurl }}{{ faq.image }}" alt="" style="max-width: 100px; vertical-align: middle; margin-right: 10px;">
     {% endif %}
     {{ faq.title }}
   </div>
