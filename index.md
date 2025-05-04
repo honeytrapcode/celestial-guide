@@ -16,7 +16,6 @@ title: Celestial Guide
   faqItems.forEach(item => {
      item.addEventListener('pointerdown', () => {
        item.classList.toggle('active');
-     });
     });
   });
 </script>
