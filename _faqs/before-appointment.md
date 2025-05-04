@@ -1,5 +1,6 @@
 ---
 title: "How To Prepare For An Appointment"
+order: 3
 ---
 
 Is is preferred if you come unaccompanied to respect the privacy of other clients.

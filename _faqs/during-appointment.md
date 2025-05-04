@@ -1,5 +1,6 @@
 ---
 title: "What To Expect At An Appointment"
+order: 4
 ---
 
 **When You Arrive**

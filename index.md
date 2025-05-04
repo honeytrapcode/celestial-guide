@@ -5,7 +5,8 @@ title: Celestial Guide
 
 <h1>Celestial Guide</h1>
 <div class="faq-container">
- {% for faq in site.faqs %}
+ {% assign sorted_faqs = site.faqs | sort: "order" %}
+ {% for faq in sorted_faqs %}
    {% include faq-item.html faq=faq %}
  {% endfor %}
 </div>

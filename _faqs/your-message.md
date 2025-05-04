@@ -1,6 +1,7 @@
 ---
-title: “A Message For You”
+title: A Message For You
 image: /assets/images/tattoo.png
+order: 1
 ---
 
 Find what fits you, you don’t need to fit what you find.
