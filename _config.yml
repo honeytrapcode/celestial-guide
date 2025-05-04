@@ -1,6 +1,6 @@
 title: Celestial Guide
 description: Tattoo FAQ Landing Page
-baseurl: ""
+baseurl: "/celestial-guide"
 url: ""
 collections:
   faqs:
