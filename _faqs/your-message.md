@@ -1,6 +1,5 @@
 ---
 title: "A Message For You"
-image: celestial-guide/assets/images/tattoo.png
 order: 1
 ---
 
