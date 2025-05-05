@@ -1,5 +1,4 @@
 ---
-layout: faq-item
 title: "After Your Appointment"
 id: after-appointment
 order: 5

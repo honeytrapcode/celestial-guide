@@ -1,5 +1,4 @@
 ---
-layout: faq-item
 title: "What To Expect At An Appointment"
 id: during-appointment
 order: 4

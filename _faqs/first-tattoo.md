@@ -1,5 +1,4 @@
 ---
-layout: faq-item
 title: "I’m Thinking Of Getting My First Tattoo"
 id: first-tattoo
 order: 2
