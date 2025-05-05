@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Celestial Guide</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 600px;
+      margin: auto;
+      padding: 1rem;
+    }
+    .faq-item {
+      border-bottom: 1px solid #ccc;
+      padding: 1rem 0;
+      cursor: pointer;
+    }
+    .faq-question {
+      font-weight: bold;
+    }
+    .faq-answer {
+      display: none;
+      margin-top: 0.5rem;
+    }
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Celestial Guide</h1>
+
+  <div class="faq-list">
+    {% assign sorted_faqs = site.faqs | sort: "order" %}
+    {% for faq in sorted_faqs %}
+      <div class="faq-item" id="{{ faq.id }}">
+        <div class="faq-question">{{ faq.title }}</div>
+        <div class="faq-answer">
+          {{ faq.content | markdownify }}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script>
+    const questions = document.querySelectorAll('.faq-question');
+    questions.forEach(question => {
+      question.addEventListener('click', () => {
+        const item = question.parentElement;
+        document.querySelectorAll('.faq-item').forEach(faq => {
+          if (faq !== item) {
+            faq.classList.remove('active');
+          }
+        });
+        item.classList.toggle('active');
+      });
+    });
+  </script>
+
+</body>
+</html>
