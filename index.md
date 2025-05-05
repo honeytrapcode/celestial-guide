@@ -1,15 +1,15 @@
 ---
  layout: default
  title: Celestial Guide
- ---
- 
- <h1>Celestial Guide</h1>
- <div class="faq-container">
+---
+
+<h1>Celestial Guide</h1>
+<div class="faq-container">
   {% assign sorted_faqs = site.faqs | sort: "order" %}
   {% for faq in sorted_faqs %}
     {% include faq-item.html faq=faq %}
   {% endfor %}
- </div>
+</div>
  
  <script>
    const questions = document.querySelectorAll('.faq-question');
