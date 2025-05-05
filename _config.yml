@@ -5,3 +5,5 @@ url: ""
 collections:
   faqs:
     output: true
+    permalink: /faq/:name
+
