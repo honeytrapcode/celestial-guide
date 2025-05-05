@@ -13,11 +13,22 @@ title: Celestial Guide
 
 <script>
   const questions = document.querySelectorAll('.faq-question');
+
   questions.forEach(question => {
     question.addEventListener('click', () => {
       const item = question.parentElement;
+
+      // Close all other items
+      document.querySelectorAll('.faq-item').forEach(faq => {
+        if (faq !== item) {
+          faq.classList.remove('active');
+        }
+      });
+
+      // Toggle clicked item
       item.classList.toggle('active');
     });
   });
 </script>
+
 
