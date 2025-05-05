@@ -1,6 +1,7 @@
 ---
 layout: faq-item
 title: "A Message For You"
+id: your-message
 order: 1
 ---
 

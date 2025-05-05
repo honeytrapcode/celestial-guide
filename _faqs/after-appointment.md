@@ -1,6 +1,7 @@
 ---
 layout: faq-item
-title: "Aftercare"
+title: "After Your Appointment"
+id: after-appointment
 order: 5
 ---
 
