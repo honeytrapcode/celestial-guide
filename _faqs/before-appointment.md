@@ -1,4 +1,5 @@
 ---
+layout: faq-item
 title: "How To Prepare For An Appointment"
 order: 3
 ---

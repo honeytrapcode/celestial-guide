@@ -1,7 +1,7 @@
 ---
+layout: faq-item
 title: "A Message For You"
 order: 1
-image: /assets/images/tattoo.png
 ---
 
 If this is your first tattoo, or first with me, **Hi!**  

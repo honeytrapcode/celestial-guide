@@ -1,4 +1,5 @@
 ---
+layout: faq-item
 title: "Aftercare"
 order: 5
 ---
