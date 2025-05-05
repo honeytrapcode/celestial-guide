@@ -15,15 +15,24 @@ title: Celestial Guide
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Handle FAQ clicks
+    // Handle FAQ question clicks
     const questions = document.querySelectorAll('.faq-question');
-    
     questions.forEach(question => {
       question.addEventListener('click', () => {
         toggleFaq(question.parentElement);
       });
     });
-
+    
+    // Handle special FAQ links
+    const faqLinks = document.querySelectorAll('.faq-link');
+    faqLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('data-target');
+        openFaq(targetId);
+      });
+    });
+    
     // Function to open a specific FAQ
     function openFaq(id) {
       // Close all FAQs first
@@ -32,15 +41,13 @@ title: Celestial Guide
       });
       
       // Find and open the target FAQ
-      const targetElement = document.getElementById(id);
-      if (targetElement) {
-        const faqItem = targetElement.querySelector('.faq-item');
+      const targetWrapper = document.getElementById(id);
+      if (targetWrapper) {
+        const faqItem = targetWrapper.querySelector('.faq-item');
         if (faqItem) {
           faqItem.classList.add('active');
           // Scroll to it
-          setTimeout(() => {
-            targetElement.scrollIntoView({behavior: 'smooth'});
-          }, 100);
+          targetWrapper.scrollIntoView({behavior: 'smooth'});
         }
       }
     }
@@ -57,28 +64,5 @@ title: Celestial Guide
       // Toggle clicked item
       item.classList.toggle('active');
     }
-
-    // Check if hash is present in URL
-    if (window.location.hash) {
-      const id = window.location.hash.substring(1);
-      openFaq(id);
-    }
-    
-    // Add click handlers to all internal links
-    document.querySelectorAll('a[href*="#"]').forEach(link => {
-      link.addEventListener('click', function(e) {
-        // Only handle links to the same page or base URL
-        const href = this.getAttribute('href');
-        if (href.includes('#')) {
-          const id = href.substring(href.indexOf('#') + 1);
-          if (id && document.getElementById(id)) {
-            e.preventDefault();
-            openFaq(id);
-            // Update URL without refreshing
-            history.pushState(null, null, href);
-          }
-        }
-      });
-    });
   });
 </script>
