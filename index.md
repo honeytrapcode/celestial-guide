@@ -7,7 +7,9 @@
 <div class="faq-container">
   {% assign sorted_faqs = site.faqs | sort: "order" %}
   {% for faq in sorted_faqs %}
-    {% include faq-item.html faq=faq %}
+    <div id="{{ faq.id }}">
+      {% include faq-item.html faq=faq %}
+    </div>
   {% endfor %}
 </div>
  
@@ -28,5 +30,21 @@
        // Toggle clicked item
        item.classList.toggle('active');
      });
+   });
+
+   // Auto-open FAQ if hash is present in URL
+   document.addEventListener('DOMContentLoaded', function() {
+     if (window.location.hash) {
+       const id = window.location.hash.substring(1);
+       const element = document.getElementById(id);
+       if (element) {
+         const faqItem = element.querySelector('.faq-item');
+         if (faqItem) {
+           faqItem.classList.add('active');
+           // Scroll to the element
+           element.scrollIntoView();
+         }
+       }
+     }
    });
  </script>
