@@ -12,10 +12,12 @@ title: Celestial Guide
 </div>
 
 <script>
-  const faqItems = document.querySelectorAll('.faq-item');
-  faqItems.forEach(item => {
-     item.addEventListener('pointerdown', () => {
-       item.classList.toggle('active');
-    }, { passive: true });
+  const questions = document.querySelectorAll('.faq-question');
+  questions.forEach(question => {
+    question.addEventListener('click', () => {
+      const item = question.parentElement;
+      item.classList.toggle('active');
+    });
   });
 </script>
+
