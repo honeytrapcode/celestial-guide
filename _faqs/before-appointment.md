@@ -4,8 +4,6 @@ id: before-appointment
 order: 3
 ---
 
-# How To Prepare For An Appointment
-
 It is preferred if you come unaccompanied to respect the privacy of other clients.
 
 ## Do's

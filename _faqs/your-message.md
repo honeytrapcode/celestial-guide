@@ -4,8 +4,6 @@ id: your-message
 order: 1
 ---
 
-# A Message For You
-
 If this is your first tattoo, or first with me, **Hi!**  
 Thanks for getting here and I hope this little guide makes your tattoo journey easier.  
 If I have tattooed you before I'd appreciate if you read the message below and feel free to browse the rest of the guide too :)

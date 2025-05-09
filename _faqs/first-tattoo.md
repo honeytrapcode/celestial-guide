@@ -4,8 +4,6 @@ id: first-tattoo
 order: 2
 ---
 
-# I'm Thinking Of Getting My First Tattoo
-
 I understand that coming to a tattoo appointment is a new experience so it can be anxiety inducing, that is completely fine and I am here to support you through this process.
 
 ## What You Need to Know

@@ -4,8 +4,6 @@ id: during-appointment
 order: 4
 ---
 
-# What To Expect At An Appointment
-
 ## When You Arrive
 
 * We'll discuss your design based on your enquiry form

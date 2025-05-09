@@ -4,8 +4,6 @@ id: after-appointment
 order: 5
 ---
 
-# After Your Appointment
-
 ## Tattoo Aftercare Instructions
 
 * **Do** remove cling film after one hour
