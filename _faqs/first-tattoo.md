@@ -6,7 +6,7 @@ order: 2
 
 I understand that coming to a tattoo appointment is a new experience so it can be anxiety inducing, that is completely fine and I am here to support you through this process.
 
-### What You Need to Know
+#### What You Need to Know
 
 * Feeling nervous is completely normal for first-time clients
 * I'm here to guide you through each step of the process
