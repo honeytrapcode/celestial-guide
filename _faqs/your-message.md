@@ -10,7 +10,7 @@ If I have tattooed you before I'd appreciate if you read the message below and f
 
 > *"Find what fits you, you don't need to fit what you find"*
 
-## My Promise to You
+### My Promise to You
 
 * It's okay to have a feeling of nervousness, anxiety and excitement  
 * I completely understand that coming into a new space is scary  

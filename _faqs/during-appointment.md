@@ -4,7 +4,7 @@ id: during-appointment
 order: 4
 ---
 
-## When You Arrive
+### When You Arrive
 
 * We'll discuss your design based on your enquiry form
 * We'll work together to make any adjustments until it's exactly what you want
@@ -12,7 +12,7 @@ order: 4
 * We'll try different sizes and placements until you're 100% satisfied
 * Only when you're completely happy will we begin tattooing
 
-## During The Session
+### During The Session
 
 It's perfectly normal to feel anxious or overstimulated during your session. To make your experience comfortable:
 
@@ -22,7 +22,7 @@ It's perfectly normal to feel anxious or overstimulated during your session. To 
 * Reading a book is welcome
 * Chatting is also welcome if you prefer!
 
-### Conversation Topics I Enjoy:
+#### Conversation Topics I Enjoy:
 * Nature
 * Art
 * Walking
@@ -30,7 +30,7 @@ It's perfectly normal to feel anxious or overstimulated during your session. To 
 * Wine
 * Or tell me about your interests!
 
-## Numbing Options
+### Numbing Options
 
 If you want to use numbing cream during your appointment, that's fine, but you must:
 * Source this yourself
