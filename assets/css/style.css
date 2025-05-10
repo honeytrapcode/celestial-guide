@@ -34,6 +34,28 @@ body {
   display: block;
 }
 
+/* Celestial theme elements */
+.celestial-link {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+  transition: all 0.3s ease;
+  padding: 0 2px;
+  font-style: italic;
+  cursor: pointer;
+}
+
+.celestial-link:hover {
+  color: #666;
+  border-bottom: 1px solid #666;
+}
+
+.celestial-link::after {
+  content: " ✨";
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+
 /* Responsive text scaling */
 @media (max-width: 600px) {
   body {
