@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 1rem;
   background: #f9f9f9;
   margin: 0;
@@ -20,6 +20,7 @@ body {
 }
 
 .faq-question {
+  font-family: 'Cormorant Garamond', serif;
   font-weight: bold;
   cursor: pointer;
 }
@@ -43,6 +44,10 @@ body {
   padding: 0 2px;
   font-style: italic;
   cursor: pointer;
+  /* Important to make links work properly */
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
 }
 
 .celestial-link:hover {
@@ -54,6 +59,19 @@ body {
   content: " ✨";
   font-size: 0.8em;
   opacity: 0.7;
+}
+
+/* Fix for FAQ links - ensure they're clickable */
+.faq-link {
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+}
+
+/* Make sure content in FAQ answers doesn't interfere with links */
+.faq-answer a {
+  position: relative;
+  z-index: 10;
 }
 
 /* Responsive text scaling */

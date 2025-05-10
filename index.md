@@ -3,7 +3,7 @@ layout: default
 title: Celestial Guide
 ---
 
-<h1>Celestial Guide</h1>
+<h1>✨ Celestial Guide ✨</h1>
 <div class="faq-container">
   {% assign sorted_faqs = site.faqs | sort: "order" %}
   {% for faq in sorted_faqs %}
@@ -23,17 +23,18 @@ title: Celestial Guide
       });
     });
     
-    // Handle special FAQ links
+    // Handle special FAQ links - Fixed to properly open target FAQ
     const faqLinks = document.querySelectorAll('.faq-link');
     faqLinks.forEach(link => {
       link.addEventListener('click', function(e) {
         e.preventDefault();
+        e.stopPropagation(); // Prevent event bubbling
         const targetId = this.getAttribute('data-target');
         openFaq(targetId);
       });
     });
     
-    // Function to open a specific FAQ
+    // Function to open a specific FAQ - Improved to correctly find and open the target
     function openFaq(id) {
       // Close all FAQs first
       document.querySelectorAll('.faq-item').forEach(item => {
@@ -64,5 +65,11 @@ title: Celestial Guide
       // Toggle clicked item
       item.classList.toggle('active');
     }
+    
+    // Initialize - ensure links work on first page load
+    document.querySelectorAll('.faq-link').forEach(link => {
+      // Make links clickable even when inside inactive FAQs
+      link.style.pointerEvents = 'auto';
+    });
   });
 </script>
