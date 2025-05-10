@@ -4,8 +4,6 @@ id: after-appointment
 order: 5
 ---
 
-✨ *After Your Appointment* ✨
-
 #### ☽ Tattoo Aftercare Instructions ☽
 
 * **Do** remove cling film after one hour
@@ -14,5 +12,5 @@ order: 5
 
 #### ☼ Recommended Products ☼
 
-* Evian Spray
+* Evian Spray 🛁
 * Tattoo Care moisturizer ✨

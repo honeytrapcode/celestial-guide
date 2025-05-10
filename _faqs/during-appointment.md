@@ -4,12 +4,10 @@ id: during-appointment
 order: 4
 ---
 
-✨ *What To Expect At An Appointment* ✨
-
 #### ☼ When You Arrive ☼
 
 * We'll discuss your design based on your enquiry form
-* We'll work together to make any adjustments until it's exactly what you want ✨
+* We'll work together to make any adjustments until it's exactly what you want
 * This consultation time is included in your appointment slot
 * We'll try different sizes and placements until you're 100% satisfied
 * Only when you're completely happy will we begin tattooing

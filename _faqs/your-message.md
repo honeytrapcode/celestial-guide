@@ -4,15 +4,13 @@ id: your-message
 order: 1
 ---
 
-✨ *A Message For You* ✨
-
 If this is your first tattoo, or first with me, **Hi!**  
 Thanks for getting here and I hope this little guide makes your tattoo journey easier.  
 If I have tattooed you before I'd appreciate if you read the message below and feel free to browse the rest of the guide too :)
 
-> *"Find what fits you, you don't need to fit what you find"* ✨
+> *"Find what fits you, you don't need to fit what you find"* 
 
-#### ☽ My Promise to You ☽
+#### ✨ My Promise to You ✨
 
 * It's okay to have a feeling of nervousness, anxiety and excitement  
 * I completely understand that coming into a new space is scary  
