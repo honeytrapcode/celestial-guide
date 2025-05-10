@@ -10,9 +10,9 @@ If I have tattooed you before I'd appreciate if you read the message below and f
 
 > *"Find what fits you, you don't need to fit what you find"* 
 
-#### ✨ My Promise to You ✨
+#### My Promise to You 
 
 * It's okay to have a feeling of nervousness, anxiety and excitement  
 * I completely understand that coming into a new space is scary  
 * You need to know that with me you are safe and secure  
-* There is no judgement in this studio, my job is to put magic on your body ✨
+* There is no judgement in this studio, my job is to put magic on your body 
