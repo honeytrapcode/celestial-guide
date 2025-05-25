@@ -13,7 +13,7 @@ It is preferred if you come unaccompanied to respect the privacy of other client
 * **Do** eat well beforehand - prevents fainting
 * **Do** get a good night's sleep - prevents fatigue and helps your experience
 
-#### Don'ts
+#### Avoids
 
-* **Don't** shave the area - we will do that properly at the studio
-* **Don't** be hungover - alcohol thins blood and can affect tattooing
+* **Avoid** shaving the area - if necessary we will do this at studio
+* **Avoid** being hungover - alcohol thins blood and will affect tattoo absorption
